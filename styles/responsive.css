@@ -28,7 +28,7 @@
    }
    .container.our-feature-main-wrapper {
       flex-direction: column;
-      padding: 2rem;
+      padding: 2rem 0;
    }
    .feature-image-wrapper {
       width: 100%;
