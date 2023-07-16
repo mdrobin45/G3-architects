@@ -15,6 +15,10 @@ a {
    text-decoration: none;
    color: #131313;
 }
+p {
+   line-height: 1.7;
+   color: #727272;
+}
 .container {
    width: 90%;
    margin: auto;
@@ -49,6 +53,10 @@ nav a {
 .bn-title {
    font-size: 43px;
 }
+.m-bn-title {
+   font-size: 20px;
+   display: none;
+}
 .banner img {
    width: 90%;
    margin: auto;
@@ -81,4 +89,71 @@ nav a {
    font-weight: 300;
    color: #727272;
    line-height: 1.4;
+}
+
+/* Services style */
+.services-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2rem 0;
+}
+.service-item-wrapper {
+   width: 70%;
+   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+   padding: 17px;
+   border-radius: 12px;
+   margin: 20px 0;
+   border: 1px solid #f1f1f1;
+}
+.service-content-wrapper {
+   width: 80%;
+}
+.service-top-box {
+   width: 80%;
+}
+.service-item-wrapper h3 {
+   margin: 0 0 10px 0;
+   font-size: 18px;
+}
+.service-item-wrapper p {
+   margin: 0;
+}
+.highlight-txt-wrapper {
+   border-left: 3px solid #ff900e;
+}
+.highlight-txt-wrapper h2 {
+   padding-left: 7px;
+   font-size: 27px;
+}
+.year-wrapper {
+   background: #ff900e;
+   color: #fff;
+   text-align: center;
+   width: 30%;
+   padding: 16px;
+   position: absolute;
+   left: -10%;
+   bottom: -4%;
+   border-radius: 5px;
+}
+.year-wrapper h2 {
+   margin: 0;
+}
+.year-wrapper p {
+   margin: 0;
+}
+.year-wrapper p {
+   color: #fff;
+}
+.service-image-wrapper {
+   position: relative;
+}
+
+/* Mobile header */
+.mobile-header {
+   display: none;
+}
+header.mobile-header h1 {
+   font-size: 27px;
 }
