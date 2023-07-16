@@ -50,7 +50,35 @@ nav a {
    font-size: 43px;
 }
 .banner img {
-   width: 70%;
+   width: 90%;
    margin: auto;
    display: block;
+}
+
+/* Feature section style */
+.feature-image-wrapper {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.container.our-feature-main-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 7rem 0;
+}
+.feature-image-wrapper {
+   width: 45%;
+   grid-gap: 37px;
+}
+.feature-content-wrapper {
+   width: 45%;
+}
+.feature-image-wrapper img {
+   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+}
+.feature-content-wrapper h2 {
+   font-size: 33px;
+   font-weight: 300;
+   color: #727272;
+   line-height: 1.4;
 }
