@@ -48,4 +48,18 @@
       box-sizing: border-box;
       width: 100%;
    }
+   .some-fact-wrapper header,
+   .sponsor-main-wrapper header {
+      width: 100%;
+   }
+   .facts-wrapper,
+   .sponsors-wrapper {
+      flex-direction: column;
+   }
+   .fact-item {
+      margin: 1rem 0;
+   }
+   .sponsors-wrapper div {
+      margin: 2rem 0;
+   }
 }
