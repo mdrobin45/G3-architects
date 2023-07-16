@@ -1,4 +1,14 @@
+@media screen and (max-width: 576px) {
+   .services-wrapper {
+      padding-top: 0;
+   }
+   .service-image-wrapper {
+      padding-top: 2rem;
+   }
+}
+
 /* Breakpoint */
+
 @media screen and (max-width: 932px) {
    .desktop-header {
       display: none;
@@ -16,7 +26,7 @@
    .banner-content-wrapper {
       width: 100%;
    }
-   .our-feature-main-wrapper {
+   .container.our-feature-main-wrapper {
       flex-direction: column;
       padding: 2rem;
    }
