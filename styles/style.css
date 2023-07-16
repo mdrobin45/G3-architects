@@ -152,9 +152,9 @@ nav a {
 
 /* Some fact */
 .facts-wrapper {
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
+   display: grid;
+   grid-gap: 30px;
+   grid-template-columns: repeat(4, 1fr);
 }
 .fact-item {
    text-align: center;
@@ -183,9 +183,10 @@ p {
 
 /* Sponsor */
 .sponsors-wrapper {
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 6rem;
    align-items: center;
-   justify-content: space-around;
 }
 .sponsors-wrapper img {
    width: 90%;
